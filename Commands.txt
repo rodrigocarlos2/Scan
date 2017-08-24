@@ -1,0 +1,4 @@
+
+nmap -O 172.20.25.219
+
+This command is used for know the Operating System from server.
