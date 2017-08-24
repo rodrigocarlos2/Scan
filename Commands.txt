@@ -2,3 +2,7 @@
 nmap -O 172.20.25.219
 
 This command is used for know the Operating System from server.
+
+nmap -sV -p 21,22,23,25,80 -T5 -A -v 172.20.25.219
+
+Command for verify if ports 21, 22, 23, 25 and 80 are open.
